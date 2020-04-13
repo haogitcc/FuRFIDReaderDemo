@@ -1,3 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FuRFIDReader</string>
+    <string name="app_name"> FuRFIDReader</string>
+    <string name="Connect">Connect</string>
+    <string name="SerialReader">SerialReader</string>
+    <string name="NetworkReader">NetworkReader</string>
+    <string name="CustomReader">CustomReader</string>
+    <string name="Read">Read</string>
+    <string name="SyncRead">SyncRead</string>
+    <string name="AsyncRead">AsyncRead</string>
+    <string name="Clear">Clear</string>
+    <string name="Search_Result">Search Result</string>
+    <string name="SerialList">Choose a connection</string>
+
+    <!-- Table Header -->
+    <string name="Number">#</string>
+    <string name="EPC">EPC</string>
+    <string name="Antenna">Ant</string>
+    <string name="TimeStamp">TimeStamp</string>
+    <string name="Rssi">Rssi</string>
+    <string name="Phase">Phase</string>
+    <string name="Frequency">Frequency</string>
+    <string name="BrandIdentifier">BrandIdentifier</string>
+    <string name="EPCMemData">EPCMemData</string>
+    <string name="ReservedMemData">ReservedMemData</string>
+    <string name="UserMemData">UserMemData</string>
+    <string name="TIDMemData">TIDMemData</string>
+    <string name="Gpio">Gpio</string>
+    <string name="ReadCount">ReadCount</string>
+    <string name="Data">Data</string>
+
+    <!-- Settings View -->
+    <string name="Settings">Settings</string>
+
+    <!-- Read Options View -->
+
+    <string name="ReadTime">Read Timeout (ms) :</string>
+    <string name="DefaultTime">1000</string>
+    <string name="Enable">Enable</string>
+    <string name="MemBank">MemBank</string>
+
+    <string-array name="MemBank_array">
+        <item>TID</item>
+        <item>Reserved</item>
+        <item>EPC</item>
+        <item>User</item>
+    </string-array>
+
+    <string name="Start">Start </string>
+    <string name="Lenght">Length </string>
+
+    <!-- Performance metrics -->
+    <string name="unique_tag_count">Unique Tag Count</string>
+    <string name="total_tag_count">Total Tag Count</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="zero">0</string>
+
+    <!-- Alert Diolog -->
+
+    <!-- Reader Config -->
+    <string name="Region">Region</string>
+    <string name="Baudrate">Bandrate</string>
+    <string name="ReadPower">Read Power</string>
+    <string name="WritePower">Write Power</string>
+    <string name="dBm">dBm</string>
+
+    <string name="BLF">BLF</string>
+    <string name="Tari">Tari</string>
+    <string name="TagEncoding">TagEncoding</string>
+    <string name="Target">Target</string>
+    <string name="Session">Session</string>
+    <string name="Q">Q Value</string>
+
+    <string name="LINK250KHZ">250KHZ</string>
+    <string name="LINK320KHZ">320KHZ</string>
+    <string name="LINK640KHZ">640KHZ</string>
+
+    <string name="TARI_12_5US">12_5US</string>
+    <string name="TARI_25US">25US</string>
+    <string name="TARI_6_25US">6_25US</string>
+
+    <string name="FM0">FM0</string>
+    <string name="M2">M2</string>
+    <string name="M4">M4</string>
+    <string name="M8">M8</string>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="AB">AB</string>
+    <string name="BA">BA</string>
+
+    <string name="S0">S0</string>
+    <string name="S1">S1</string>
+    <string name="S2">S2</string>
+    <string name="S3">S3</string>
+
+    <string name="DynamicQ">DynamicQ</string>
+    <string name="StaticQ">StaticQ</string>
+
+
 </resources>
